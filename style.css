@@ -1,0 +1,131 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: hsl(175, 65%, 20%);
+    color: white;
+}
+.navMenu{
+    list-style: none;
+    display: flex;
+    background-color: #092328;
+    /* text-align: center; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.navMenu li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.navMenu li a:hover, button:hover{
+    background-color: #2A835F;
+    transition-duration: 500ms; 
+    cursor: pointer;
+}
+.cards{
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    display:inline-block;
+    text-align: center; 
+    background-color: hsl(175, 65%, 30%);
+}
+.carda{
+    text-decoration: none;
+    color: white;
+}
+.cardBox{
+    text-align: center;
+}
+.cards:hover{
+    background-color: #2A835F;
+    transition-duration: 500ms;
+    transform: scale(1.1); 
+
+}
+.pagesTitle{
+    text-align: center;
+}
+.pagesInfo{
+    text-align: center;
+}
+.info{
+    font-size: large;
+}
+.imgCard{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px 0;    
+}
+.imgCard a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+}
+.imgCard a img{
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+.imgCard a:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.showsCard a img{
+    max-width: 250px;
+    height: 100%;
+}
+#hobbyCard{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imgCard a img{
+    height: 400px;
+    width: 250px;
+}
+p a{
+    color: hsl(240, 100%, 90%);
+}
+p a:hover{
+    color:hsl(240, 100%, 100%) ;
+}
+.changeDesign{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.changeDesign thead th, .changeDesign tbody td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.tableBox{
+    display: flex;
+    justify-content: center;
+}
+#reset{
+    margin-left: 47.5%;
+    margin-top: 40px;
+}
+button{
+    color: white;
+    background-color: #092328;
+    border: 1px solid white;
+    width: 70px;
+    height: 30px;
+}
+.hiddenBox{
+    visibility: hidden;
+}
